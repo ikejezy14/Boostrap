@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./src/styles.css" />
+    <link rel="stylesheet" href="./src/responsive.css">
+  </head>
+  <body>
+    <!--nabvar-->
+    <nav
+      class="navbar navbar-expand-lg navbar-light"
+      id="default-nabvar" style="background-color: black;"
+    >
+      <div class="container">
+        <a class="navbar-brand text-white" href="#">Blabla</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbar-opcions"
+          aria-controls="navbar-opcions"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+          style="background-color: white"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse"  id="navbar-opcions">
+          <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                  <a class="nav-link text-white" href="#">Inicio </a>
+                </li>
+            <li class="nav-item active">
+              <a class="nav-link text-white" href="#">Contacto </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Servicios </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">¿Quiénes Somos? </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--carousel-->
+    <section class="carousel">
+      <div id="home-carousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li
+            data-target="#home-carousel"
+            data-slide-to="0"
+            class="active"
+          ></li>
+          <li data-target="#home-carousel" data-slide-to="1"></li>
+          <li data-target="#home-carousel" data-slide-to="2"></li>
+          <li data-target="#home-carousel" data-slide-to="3"></li>
+          <li data-target="#home-carousel" data-slide-to="4"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="./src/img/img_1.jpg"
+              class="d-block w-100"
+              alt="imagenes"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>imagen 1</h5>
+              <p>
+                Nulla vitae elit libero, a pharetra augue mollis interdum.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./src/img/img_2.jpg"
+              class="d-block w-100"
+              alt="imagenes"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>imagen 2</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./src/img/img_3.jpg"
+              class="d-block w-100"
+              alt="imagenes"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>imagen 3</h5>
+              <p>
+                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./src/img/img_4.jpg"
+              class="d-block w-100"
+              alt="imagenes"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>imagen 4</h5>
+              <p>
+                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./src/img/img_5.jpg"
+              class="d-block w-100"
+              alt="imagenes"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>imagen 5</h5>
+              <p>
+                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+              </p>
+            </div>
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#home-carousel"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#home-carousel"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </section>
+
+    <!--flex-box-->
+    <section class="options bg-white mt-5">
+      <div class="row">
+        <div class="container">
+          <div
+            class="options-area d-flex  align-items-center flex-wrap"
+          >
+          <div class="col-3 col-12 col-md-6 col-lg-3">
+   
+            <div class="opt">
+              <p class="opt-title text-dark">Titulo 1</p>
+              <img class="opt-img" src="./src/img/img_3.jpg" />
+              <div class="container">
+              <p class="opt-desc text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde aspernatur quam exercitationem earum dignissimos. Autem, laudantium quis eos ipsum aperiam quia voluptatibus earum id dolorem</p>
+              <p class="badge badge-primary">1</p>
+              <br /><button class="btn btn-danger">botón</button>
+              </div>
+            </div>
+          </div>
+        
+
+          <div class="col-3 col-12 col-md-6 col-lg-3">
+            <div class="opt">
+              <p class="opt-title text-dark">Titulo 2</p>
+              <img class="opt-img" src="./src/img/img_2.jpg" />
+              <div class="container">
+              <p class="opt-desc text-dark text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eos ipsum ducimus voluptate deserunt aliquam ipsam adipisci impedit quibusdam dolores modi porro, earum distinctio nesciunt sunt</p>
+              <p class="badge badge-primary">2</p>
+              <br /><button class="btn btn-danger">botón</button>
+              </div>
+            </div>
+          </div>
+        
+      
+      
+      <div class="col-3 col-12 col-md-6 col-lg-3">
+          <div class="opt">
+              <p class="opt-title text-dark">Titulo 3</p>
+              <img class="opt-img" src="./src/img/img_3.jpg" />
+              <div class="container">
+              <p class="opt-desc text-dark text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed quidem repellat fuga nemo, placeat voluptatibus, architecto ex, eos repudiandae tempore veniam id reprehenderit </p>
+              <p class="badge badge-primary">3</p>
+              <br /><button class="btn btn-danger">botón</button>
+              </div>
+            </div>
+          </div>
+      
+    
+    <div class="col-3 col-12 col-md-6 col-lg-3">
+        <div class="opt">
+            <p class="opt-title text-dark">Titulo 4</p>
+            <img class="opt-img" src="./src/img/img_4.jpg" />
+            <div class="container">
+                <p class="opt-desc text-dark text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor atque amet suscipit possimus aliquam corporis velit adipisci, at numquam natus rerum vel illum ea id voluptate totam debitis eligendi assumenda.</p>
+                <p class="badge badge-primary">4</p>
+                <br /><button class="btn btn-danger">botón</button>
+            </div>
+            
+          </div>
+    </div>
+  </div>
+</div>
+ 
+</div>
+        
+        
+      </div>
+      </div>
+    </section>
+
+    <!--grid system-->
+    <section class="options-grid mt-5" style="background-color:#F0F2F5">
+      <div class="container monthly-options-area">
+        <h3 class="section-title text-center text-dark">Pié de Página</h3>
+        <div class="row">
+          <div class="img-container col-12 col-md-6 col-lg-3">
+            <figure class="figure">
+              <img
+                src="./src/img/img_1.jpg"
+                class="figure-img img-fluid rounded"
+                alt="sistema grid"
+              />
+              <figcaption class="figure-caption text-dark">Montoya 1</figcaption>
+            </figure>
+          </div>
+          <div class="img-container col-12 col-md-6 col-lg-3">
+            <figure class="figure">
+              <img
+                src="./src/img/img_2.jpg"
+                class="figure-img img-fluid rounded"
+                alt="sistema grid"
+              />
+              <figcaption class="figure-caption text-dark">Montoya 2</figcaption>
+            </figure>
+          </div>
+          <div class="img-container col-12 col-md-6 col-lg-3">
+            <figure class="figure">
+              <img
+                src="./src/img/img_3.jpg"
+                class="figure-img img-fluid rounded"
+                alt="sistema grid"
+              />
+              <figcaption class="figure-caption text-dark">Montoya 3</figcaption>
+            </figure>
+          </div>
+          <div class="img-container col-12 col-md-6 col-lg-3">
+            <figure class="figure">
+              <img
+                src="./src/img/img_4.jpg"
+                class="figure-img img-fluid rounded"
+                alt="sistema grid"
+              />
+              <figcaption class="figure-caption text-dark">Montoya 4</figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="src/index.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
